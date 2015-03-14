@@ -1,4 +1,4 @@
-This repository contain various Pyhton scripts for GIMP.
+This repository contain various Python scripts for GIMP.
 
 The perspectiv_path plugin contain TWO routines.  Both take a vector path as a parameter ( easily created from the
 GIMP vector path tool ) and simply generate a rotation or perspective correction from that path.  They're pretty
