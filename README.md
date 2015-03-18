@@ -7,3 +7,6 @@ case of perspective corection ) or horizontal or vertical ( in the case of rotat
 
 HSV_Layers is a set of quick layer mask creation tools to add a layer mask based on one component of a selected color
 space.  I find such layer masks useful in some editing situation, but they can be tedious to make any other way.
+
+An example showing how to use the Perspective From Path tool is located at ![JPEG showing steps to apply perspective from path tool.](https://farm9.staticflickr.com/8752/16852617191_6389508c22_b_d.jpg)
+
