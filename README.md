@@ -1,5 +1,7 @@
 This repository contain various Python scripts for GIMP.
 
+Install_it adds a simple way for users to install Scheme scripts and Python plug-ins without all that file copying to hidden folders ( on Linux ).  It also ensures that the copied Python files have the required execution permission so they actually run on Linux.
+
 The perspective_path plugin contain TWO routines.  Both take a vector path as a parameter ( easily created from the
 GIMP vector path tool ) and simply generate a rotation or perspective correction from that path.  They're pretty
 intuitive, the idea being you visually select points on the path that define what you want to be parallel ( in the
