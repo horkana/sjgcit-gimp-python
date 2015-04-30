@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf8 -*-
 
 '''
 Perspective and Rotation Transform using paths to control operation
@@ -190,34 +192,34 @@ def plugin_perspective( image, drawable ):
 #----------------------------------------------------------------------------------
 
 register(
-                "python_fu_sjg_perspective",
-                "Perspective transform using path from image.",
-                "Perspective transform using path from image.",
-                "Stephen Geary, ( sg euroapps com )",
-                "(c) 2014, Stephen Geary",
-                "2014",
-                "<Image>/Tools/Transform Tools/SJG Perspective from path",
-                "*",
-                [
-                ],
-                [],
-                plugin_perspective,
-                )
+    "python_fu_sjg_perspective",
+    "Perspective transform using path from image.",
+    "Perspective transform using path from image.",
+    "Stephen Geary, ( sg euroapps com )",
+    "(c) 2014, Stephen Geary",
+    "2014",
+    "<Image>/Tools/Transform Tools/SJG Perspective from path",
+    "*",
+    [
+    ],
+    [],
+    plugin_perspective,
+)
 
 register(
-                "python_fu_sjg_rotate",
-                "Rotate tp horizonal or vertical using path from image.",
-                "Rotate tp horizonal or vertical using path from image.",
-                "Stephen Geary, ( sg euroapps com )",
-                "(c) 2014, Stephen Geary",
-                "2014",
-                "<Image>/Tools/Transform Tools/SJG Rotation from path",
-                "*",
-                [
-                ],
-                [],
-                plugin_rotate,
-                )
+    "python_fu_sjg_rotate",
+    "Rotate to horizontal or vertical using path from image.",
+    "Rotate to horizontal or vertical using path from image.",
+    "Stephen Geary, ( sg euroapps com )",
+    "(c) 2014, Stephen Geary",
+    "2014",
+    "<Image>/Tools/Transform Tools/SJG Rotation from path",
+    "*",
+    [
+    ],
+    [],
+    plugin_rotate,
+)
 
 main()
 
