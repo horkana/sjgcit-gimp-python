@@ -227,7 +227,7 @@ def quickmask_register( shortname ):
   # which means we need to be careful about menu entries so
   # that the color spaces are close together in the menu.
   
-  register(
+register(
     "sjg_quickmask_" + cn + "_from_" + shortname[(i+1):],
     desc,
     desc,
@@ -240,7 +240,7 @@ def quickmask_register( shortname ):
     ],
     [],
     globals()[ "quickmask_" + shortname ],
-    )
+)
 
 
 quickmask_register( "R_RGB" )
@@ -286,20 +286,20 @@ quickmask_register( "Cr_YCbCr_ITU_R709_256" )
 
 
 register(
-  "sjg_component_layers_fn",
-  "Split a layer into different color space component layers",
-  "Split a layer into different color space component layers",
-  "Stephen Geary",
-  "(©) 2011 Stephen Geary",
-  "2011-04-23",
-  "<Image>/Colors/Components/Color Component Layers",
-  "RGB*",
-  [
-    ( PF_OPTION, "spaceidx", "Component Space", 0, plugin_spaces(-1) )
-  ],
-  [],
-  sjg_component_layers,
-  )
+    "sjg_component_layers_fn",
+    "Split a layer into different color space component layers",
+    "Split a layer into different color space component layers",
+    "Stephen Geary",
+    "(©) 2011 Stephen Geary",
+    "2011-04-23",
+    "<Image>/Colors/Components/Color Component Layers",
+    "RGB*",
+    [
+        ( PF_OPTION, "spaceidx", "Component Space", 0, plugin_spaces(-1) )
+    ],
+    [],
+    sjg_component_layers,
+)
 
 main()
 
